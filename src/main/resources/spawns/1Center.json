@@ -1,0 +1,16 @@
+{
+  "name": "Center",
+  "gui_item": {
+    "material": "WOOD",
+    "displayname": "&6&lCenter",
+    "lore": []
+  },
+  "location": {
+    "world": "world",
+    "x": 5.0,
+    "y": 65.0,
+    "z": 5.0,
+    "yaw": 0.0,
+    "pitch": 0.0
+  }
+}

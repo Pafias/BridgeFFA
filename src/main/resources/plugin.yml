@@ -1,0 +1,47 @@
+name: BridgeFFA
+version: '${project.version}'
+main: me.pafias.bridgeffa.BridgeFFA
+api-version: 1.13
+authors: [ Pafias ]
+description: BridgeFFA
+commands:
+  bridgeffa:
+    usage: /bridgeffa <subcommands>
+    description: BridgeFFA Main Command
+    aliases: [ ffa ]
+  kill:
+    usage: /kill
+    description: Kill yourself
+    aliases: [ kys, kms, suicide ]
+permissions:
+  bridgeffa:
+    description: BridgeFFA Main Permission
+    default: op
+    children:
+      armorstand:
+        description: Permission to execute the armorstand subcommand
+        default: op
+      kill:
+        description: Permission to execute the kill subcommand
+        default: true
+      kit:
+        description: Permission to execute the kit subcommand
+        default: op
+      lobby:
+        description: Permission to execute the lobby subcommand
+        default: true
+      replacekit:
+        description: Permission to execute the replacekit subcommand
+        default: op
+      savekit:
+        description: Permission to execute the savekit subcommand
+        default: op
+      savespawn:
+        description: Permission to execute the savespawn subcommand
+        default: op
+      setlobby:
+        description: Permission to execute the setlobby subcommand
+        default: op
+      spawn:
+        description: Permission to execute the spawn subcommand
+        default: op
