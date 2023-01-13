@@ -57,8 +57,6 @@ public class BridgePlayer {
             double hrS = plugin.getSM().getVariables().lobbyHRadius;
             double vrS = plugin.getSM().getVariables().lobbyVRadius;
             return (x > xS - hrS && x < xS + hrS) && (y > yS - vrS && y < yS + vrS) && (z > zS - hrS && z < zS + hrS);
-            // return Math.abs(x - xS) < hrS && Math.abs(z - zS) < hrS && Math.abs(y - yS) < vrS;
-            // return (y == yS || y == yS + vrS || y == yS - 1) && ((x == xS || x == xS + hrS || x == xS - hrS) && (z == zS || z == zS + hrS || z == zS - hrS));
         }
     }
 
